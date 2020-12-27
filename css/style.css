@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:&display=swap");
+navbar li {
+  list-style-type: none;
+  display: inline-block; }
+
+navbar {
+  background: #007765;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px; }
+  navbar ul {
+    margin-right: 50px; }
+  navbar a {
+    color: white;
+    margin-right: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px; }
+
+#nav-border {
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  padding-left: 5px;
+  padding-left: 5px; }
+
+header {
+  background: url("../img/image.png");
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  padding-top: 56px;
+  text-align: center; }
+  header h1 {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 400px; }
+
+body {
+  margin: 0px; }
+
+a {
+  text-decoration: none; }
+
+.content {
+  max-width: 1219px;
+  padding-right: 55px;
+  padding-left: 55px;
+  margin: auto; }
+
+.problem {
+  background: #eeeeee;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .problem h1 {
+    text-align: center;
+    color: #007765;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 64px;
+    margin-top: 0px; }
+  .problem p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 25px; }
+
+.hero {
+  width: 100%;
+  height: 300px;
+  background: url("../img/hero.png");
+  background-size: 100% 100%;
+  padding-top: 200px; }
+  .hero h1 {
+    text-align: center;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    font-style: italic;
+    line-height: 56px;
+    margin-top: 0px; }
+
+.introducing {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .introducing h1 {
+    text-align: center;
+    color: #007765;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 64px;
+    margin-top: 0px; }
+  .introducing #logo {
+    float: left;
+    margin-right: 50px; }
+  .introducing p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 32px; }
+
+.team {
+  background: #eeeeee;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .team h1 {
+    text-align: center;
+    color: #007765;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 64px;
+    margin-top: 0px; }
+
+.card {
+  text-align: center;
+  display: inline-block;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px; }
+
+.fio {
+  color: #007765;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 0px; }
+
+.about {
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 5px; }
+
+footer {
+  background: #333333;
+  text-align: center;
+  color: white;
+  width: 100%; }
+  footer .content {
+    width: 600px; }
+  footer p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0px;
+    padding: 50px;
+    line-height: 20px; }

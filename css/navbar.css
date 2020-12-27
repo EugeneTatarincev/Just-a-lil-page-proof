@@ -1,0 +1,26 @@
+navbar li {
+  list-style-type: none;
+  display: inline-block; }
+
+navbar {
+  background: #007765;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px; }
+  navbar ul {
+    margin-right: 50px; }
+  navbar a {
+    color: white;
+    margin-right: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px; }
+
+#nav-border {
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  padding-left: 5px;
+  padding-left: 5px; }

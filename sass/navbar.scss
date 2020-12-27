@@ -1,0 +1,38 @@
+// NAVBAR
+
+@import "general.scss";
+
+%ulinrow {
+    li {
+        list-style-type: none;
+        display: inline-block;
+    }
+}
+
+navbar {
+    @extend %ulinrow;
+    background: $navcolor;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    
+    ul {
+        margin-right: 50px;
+    }
+
+    a {
+        color: white;
+        margin-right: 10px;
+        @include font-setting($navfont, 500, 20px);
+    }
+}
+
+#nav-border {
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    padding-left: 5px;
+    padding-left: 5px;
+}

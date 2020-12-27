@@ -1,0 +1,8 @@
+@mixin font-setting ($family, $weight, $size) {
+    font-family: $family;
+    font-weight: $weight;
+    font-size: $size;
+}
+
+$navfont: 'Roboto', sans-serif;
+$navcolor: #007765;
