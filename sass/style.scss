@@ -101,10 +101,13 @@ a {
 
 .card {
     text-align: center;
-    display: inline-block;
-    margin-left: 100px;
-    margin-right: 100px;
     margin-top: 50px;
+    flex-basis: 33%;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .fio {
